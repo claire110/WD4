@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    font-family: 'poppins', sans-serif; 
+}
+body{
+    height:100%;
+    width:100%;
+    color: #222;
+}
+.pic{
+    height: 2em;
+}
+/* NAV BAR */
+.navbar{
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: .8em;
+    letter-spacing: .1em;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+    color:black !important;
+}
+.nav-link:focus{
+  border-bottom:solid 1px rgb(48, 45, 45);
+  font-weight: 600;
+}
+
+/* CAROUSEL */
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+.carousel-caption{
+    position:absolute;
+    top:30%;
+}
+.carousel-caption h1{
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h2{
+    text-shadow: 1px 1px 10px #000;
+    margin-bottom: 1em;
+    font-size: 2.7em;
+}
+.carousel-caption h4{
+    text-shadow: 1px 1px 10px #000;
+}
+.padding{
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+.de{
+    padding-bottom: 1em;
+}
+
+/* PAGE1 */
+.profile{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#profileimag{
+    width: 30%;
+    height: 30%;
+}
+
+/* PAGE2 */
+.exp-caption{
+    position: absolute;
+    top:30%;
+    color: white;
+    text-shadow: 1px 1px 10px #000;
+}
+/* ICON */
+.fa-code{
+    color:#e54d26;
+    font-size: 4em;
+    margin:1em;
+}
+.fa-bold{
+    color: #563d7c;
+    font-size: 4em;
+    margin:1em;
+}
+.fa-css3-alt{
+    color: #2163af;
+    font-size: 4em;
+    margin:1em;
+}
+#value2{
+    padding-bottom: 3em;
+}
+/* PAGE 3 */
+.imgBackground {
+    background-image: url('../images/page3.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.pro{
+    margin-bottom: 1em;
+}
+#value3{
+    padding-bottom: 3em;
+}
+
+/* PAGE4 */
+h5{
+    padding-top: 0.5em;
+    font-weight: 500;
+}
+.edutext h3{
+    padding-bottom:0.5em;
+}
+.exptext h3{
+    padding-bottom:0.5em;
+}
+#value4 h2{
+    padding: 1em;
+}
+.eduimg{
+    padding-bottom: 1em;
+}
+#value4{
+    margin-bottom: 2em;
+    margin-top: 4em;
+}
+
+/* FOOTER */
+.flogo img{
+   height: 4em;
+}
